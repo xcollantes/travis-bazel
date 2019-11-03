@@ -1,0 +1,13 @@
+
+sudo: false
+language: java
+os: 
+  - linux
+  - windows
+compiler:
+  - javac
+notifications:
+  email:
+    - collantes.xavier@gmail.com
+
+
