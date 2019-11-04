@@ -10,7 +10,7 @@ notifications:
   email:
     - collantes.xavier@gmail.com
 install: 
-  - ./mvnw clean install
+  - mvn clean install
 cache:
   directories:
     - $HOME/.m2
