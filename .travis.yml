@@ -5,9 +5,12 @@ language: java
 jdk: oraclejdk8
 os: 
   - linux
+<<<<<<< HEAD
 notifications:
   email:
     - collantes.xavier@gmail.com
+=======
+>>>>>>> 5f4d9d1ea815f97e68a2b45062b00b71f0daf6b7
 addons:
   apt:
     sources:
