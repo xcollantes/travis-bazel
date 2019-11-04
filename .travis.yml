@@ -10,6 +10,8 @@ notifications:
   email:
     - collantes.xavier@gmail.com
 addons:
+  sources:
+    - ubuntu-toolchain-r-test
   apt:
     packages:
       - wget
