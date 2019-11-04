@@ -15,4 +15,4 @@ addons:
   packages:
     - bazel
 script:
-  - bazel run :Hello
+  - bazel run //Hello
