@@ -10,7 +10,6 @@ notifications:
   email:
     - collantes.xavier@gmail.com
 install: 
-  - gradle assemble
   - ./mvnw clean install
 cache:
   directories:
