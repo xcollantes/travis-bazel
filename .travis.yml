@@ -2,7 +2,7 @@
 
 dist: trusty
 language: java
-jdk: openjdk8
+jdk: oraclejdk8
 os: 
   - linux
 notifications:
@@ -16,9 +16,10 @@ addons:
       - wget
       - pkg-config
 before_install:
+  - sudo apt purge openjdk-9*
+  - sudo apt autoremove
   - wget https://github.com/bazelbuild/bazel/releases/download/0.3.1/bazel_0.3.1-linux-x86_64.deb
   - sha256sum -c bazel.sha256
   - sudo dpkg -i bazel_0.3.1-linux-x86_64.deb
 script:
-  - sudo apt purge openjdk-9*
   - bazel run :Hello
