@@ -4,8 +4,6 @@ dist: trusty
 language: java
 os: 
   - linux
-compiler:
-  - javac
 notifications:
   email:
     - collantes.xavier@gmail.com
