@@ -9,5 +9,5 @@ compiler:
 notifications:
   email:
     - collantes.xavier@gmail.com
-
+install: ant deps
 
