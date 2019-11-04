@@ -10,6 +10,5 @@ notifications:
   email:
     - collantes.xavier@gmail.com
 install: 
-  - ant deps
   - gradle assemble
 
